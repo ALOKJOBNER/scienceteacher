@@ -1,0 +1,13 @@
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
+
+    // Here you can process the form data, like saving it to a database or sending an email
+    // For example:
+    // mail("your-email@example.com", "New Contact Form Submission", $message);
+
+    echo "धन्यवाद, $name! आपका संदेश प्राप्त हुआ है।";
+}
+?>

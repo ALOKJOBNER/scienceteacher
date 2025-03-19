@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>विद्यार्थी और कर्मचारी पोर्टल</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">होम</a></li>
+                <li><a href="#student-section">विद्यार्थी सेक्शन</a></li>
+                <li><a href="#employee-section">कर्मचारी सेक्शन</a></li>
+                <li><a href="#contact">संपर्क करें</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>विद्यार्थी और कर्मचारी पोर्टल</h1>
+        <p>यहां आप अपने पाठ्यक्रम से संबंधित नोट्स, प्रश्न उत्तर, टेस्ट पेपर और वीडियो प्राप्त कर सकते हैं।</p>
+    </section>
+
+    <section id="student-section">
+        <h2>विद्यार्थी सेक्शन</h2>
+        <div class="class-options">
+            <div class="class">
+                <h3>कक्षा 8</h3>
+                <ul>
+                    <li><a href="#class8-notes">नोट्स</a></li>
+                    <li><a href="#class8-questions">प्रश्न उत्तर</a></li>
+                    <li><a href="#class8-test-papers">टेस्ट पेपर</a></li>
+                    <li><a href="#class8-videos">वीडियो</a></li>
+                </ul>
+            </div>
+            <div class="class">
+                <h3>कक्षा 9</h3>
+                <ul>
+                    <li><a href="#class9-notes">नोट्स</a></li>
+                    <li><a href="#class9-questions">प्रश्न उत्तर</a></li>
+                    <li><a href="#class9-test-papers">टेस्ट पेपर</a></li>
+                    <li><a href="#class9-videos">वीडियो</a></li>
+                </ul>
+            </div>
+            <div class="class">
+                <h3>कक्षा 10</h3>
+                <ul>
+                    <li><a href="#class10-notes">नोट्स</a></li>
+                    <li><a href="#class10-questions">प्रश्न उत्तर</a></li>
+                    <li><a href="#class10-test-papers">टेस्ट पेपर</a></li>
+                    <li><a href="#class10-videos">वीडियो</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="employee-section">
+        <h2>कर्मचारी सेक्शन</h2>
+        <p>यहां कर्मचारी राजस्थान सरकार के नवीनतम अपडेट्स, ऑर्डर और वीडियो प्राप्त कर सकते हैं।</p>
+        <ul>
+            <li><a href="#latest-updates">नवीनतम अपडेट्स</a></li>
+            <li><a href="#latest-orders">लेटेस्ट ऑर्डर</a></li>
+            <li><a href="#employee-videos">वीडियो</a></li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>संपर्क करें</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">नाम:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">ईमेल:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">संदेश:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">भेजें</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 विद्यार्थी और कर्मचारी पोर्टल</p>
+    </footer>
+</body>
+</html>
